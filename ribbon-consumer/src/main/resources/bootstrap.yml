@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      profile: dev
+      lable: master
+      uri: http://localhost:8021/
