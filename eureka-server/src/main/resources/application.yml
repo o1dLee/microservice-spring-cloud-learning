@@ -1,0 +1,15 @@
+server:
+  port: 1111
+spring:
+  application:
+    name: microservice-server-eureka
+
+eureka:
+  instance:
+    hostname: localhost
+
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    register-with-eureka: false
+    fetch-registry: false

@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ribbon-hystrix-consumer
+server:
+  port: 5555
+eureka:
+  client:
+    serviceUrl:
+#      defaultZone: http://peer1:1111/eureka/,http://peer2:2222/eureka/
+      defaultZone: http://localhost:1111/eureka/
+  instance:
+    hostname: ribbon-hystrix

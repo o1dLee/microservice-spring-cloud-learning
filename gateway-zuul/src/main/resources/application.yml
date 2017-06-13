@@ -1,0 +1,21 @@
+server:
+  port: 8071
+
+spring:
+  application:
+    name: microservice-api-gateway
+
+zuul:
+  routes:
+    users:
+      path: /users/**
+      serviceId: USER-PROVIDER
+    orders:
+      path: /orders/**
+      serviceId: order-provider
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/

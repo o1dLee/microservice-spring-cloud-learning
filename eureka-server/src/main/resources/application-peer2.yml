@@ -1,0 +1,15 @@
+server:
+  port: 1112
+spring:
+  application:
+    name: microservice-server-eureka
+
+eureka:
+  instance:
+    hostname: peer2
+
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:1111/eureka/
+    register-with-eureka: false
+    fetch-registry: false

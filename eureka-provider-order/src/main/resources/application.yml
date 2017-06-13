@@ -1,0 +1,20 @@
+server:
+  port: 3333
+spring:
+  application:
+    name: order-provider
+  datasource:
+    url: jdbc:mysql://localhost:3306/microservice?useUnicode=true&characterEncoding=utf-8
+    username: forseti
+    password: tongdun1234
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+  instance:
+    preferIpAddress: true
+

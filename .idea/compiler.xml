@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cloud-config-server" />
+        <module name="eureka-client" />
+        <module name="eureka-provider-order" />
+        <module name="eureka-provider-user" />
+        <module name="eureka-server" />
+        <module name="eureka-user-provider" />
+        <module name="feign-consumer" />
+        <module name="feign-with-hystrix" />
+        <module name="gateway-zuul" />
+        <module name="ribbon-consumer" />
+        <module name="ribbon-with-hystrix" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="cloud-config-server" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-provider-order" target="1.8" />
+      <module name="eureka-provider-user" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-user-provider" target="1.8" />
+      <module name="eurekaserver" target="1.8" />
+      <module name="feign-consumer" target="1.8" />
+      <module name="feign-with-hystrix" target="1.8" />
+      <module name="gateway-zuul" target="1.8" />
+      <module name="microservice" target="1.8" />
+      <module name="provider-order" target="1.8" />
+      <module name="ribbon-consumer" target="1.8" />
+      <module name="ribbon-with-hystrix" target="1.8" />
+      <module name="zookeeper-client" target="1.8" />
+      <module name="zookeeper-consumer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
