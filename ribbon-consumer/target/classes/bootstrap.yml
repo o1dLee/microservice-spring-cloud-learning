@@ -3,4 +3,4 @@ spring:
     config:
       profile: dev
       lable: master
-      uri: http://localhost:8021/
+      uri: http://localhost:7777/
