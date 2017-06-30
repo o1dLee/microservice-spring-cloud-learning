@@ -9,5 +9,5 @@ spring:
         git:
           uri: https://github.com/o1dLee/microservice-spring-cloud-learning.git
           search-paths: /config-repo
-          username: o1dLee
-          password: a704114520
+          username: ***
+          password: ***
